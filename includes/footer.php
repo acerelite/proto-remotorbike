@@ -13,22 +13,6 @@
     jQuery(window).scroll(function() {
         var vscroll = jQuery(this).scrollTop();
     });
-
-    function detailsmodal(id) {
-        var data = {
-            "id": id
-        };
-        jQuery.ajax({
-            url: '/remotorbike/includes/detailsmodal.php',
-            method: "POST",
-            data: data,
-            success: function(data) {
-                jQuery('body').append(data);
-                jQuery('#modal-details').modal('toggle');
-            },
-            error: function() {}
-        });
-    }
 </script>
 </body>
 
