@@ -6,5 +6,7 @@ How to run:
   
   Place the project into \xampp\htdocs\
 
-2. Go to myPhp admin and restore the sql database file
+How to restore the database
+
+1. Go to myPhp admin and use remotorbike.sql from the project folder to restore the sql database
 How: https://support.managed.com/kb/a2034/how-to-backup-and-or-restore-your-mysql-database-using-phpmyadmin.aspx
