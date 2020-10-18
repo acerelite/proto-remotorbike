@@ -1,0 +1,212 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #D2D2D2;
+    font-family: poppins, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer {
+    font-weight: normal;
+}
+
+.main-footer,
+.footer-nav {
+    margin-left: 25vw;
+    margin-bottom: 1vw;
+}
+
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link img {
+    width: 1em;
+    margin-right: .20rem;
+}
+
+.main-nav ul,
+.footer-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.brand-logo-name {
+    margin-left: 1rem;
+}
+
+.main-nav a,
+.footer-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover,
+.footer-nav a:hover {
+    color: #adadad;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.main-header #branding {
+    float: left;
+}
+
+.main-header #branding {
+    margin: 0;
+}
+
+.container {
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0 auto;
+    padding: 0 100px;
+    flex-grow: 1;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.btn1 {
+    color: white;
+    background-color: #363A39;
+    padding: .75rem 1.5rem;
+    margin: 2rem;
+    border-radius: 21rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2 {
+    color: #FE4D4D;
+    background-color: #C4C4C4;
+    padding: .75rem 1.5rem;
+    margin: 2rem;
+    border-radius: 21rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: #C4C4C4;
+    background-color: #FE4D4D;
+}
+
+.home-main-section .call-to-action .main-ul {
+    display: flex;
+    margin: 20;
+    padding: 1rem;
+    list-style: none;
+}
+
+.home-main-section .call-to-action a:hover {
+    color: #adadad;
+}
+
+.brand-logo-name .ren,
+.main-nav .current a {
+    color: #e8491d;
+}
+
+.bigcr {
+    position: absolute;
+    overflow: hidden;
+    top: 100;
+    right: 20;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.bigcl {
+    height: 303;
+    width: 303;
+    position: absolute;
+    top: 10vw;
+    left: 11vw;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.smallcl {
+    height: 95;
+    width: 95;
+    position: absolute;
+    bottom: 18vw;
+    left: 9vw;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.smallcr {
+    height: 104;
+    width: 105;
+    position: absolute;
+    top: 13vw;
+    left: 30vw;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.mediumcr {
+    height: 176;
+    width: 176;
+    position: absolute;
+    top: 15vw;
+    left: 38vw;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: inherit;
+    text-decoration: none;
+}

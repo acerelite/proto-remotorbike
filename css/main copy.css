@@ -1,0 +1,34 @@
+body {
+  font-family: 'open sans';
+}
+
+#logo-text {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+}
+
+.img-thumb {
+  width: auto;
+  height: 200px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;         /* Footer height */
+}
+
+img.details {
+  width: 33%;
+  margin: 50px auto;
+}
+
+#table-auto {
+  width: auto;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
