@@ -11,7 +11,7 @@
   </div>
 
   <div class="card bg-light mb-3">
-    <div class="card-header bg-success text-white text-uppercase">Top product</div>
+    <div class="card-header bg-success text-white text-uppercase">Top products</div>
     <div class="card-body">
       <p>[TODO]</p>
     </div>

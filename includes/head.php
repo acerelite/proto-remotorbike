@@ -14,6 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="../proto-remotorbike/css/main.css">
+    <link href="../proto-remotorbike/css/main.css?v=1.0" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
